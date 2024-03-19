@@ -1,0 +1,79 @@
+:root {
+    --color-white: #ffffff;
+    --color-white-rgb: 255, 255, 255;
+    --color-black-rgb: 0, 0, 0;
+    --color-black: #000000;
+
+    --main-color: #222222;
+    --main-text-color: var(--color-white);
+    --main-background-color: #0c1022;
+
+    --section-gap: 160px;
+    --header-height: 120px;
+    --header-height-mobile: 60px;
+    --nav-height: 40px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--main-text-color);
+    background: var(--main-background-color);
+    transition: color 0.5s;
+    line-height: 1.6;
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+.shadow {
+    box-shadow:
+        0 0 5px #8b80f9,
+        0 0 25px #8b80f9,
+        0 0 50px #8b80f9,
+        0 0 100px #8b80f9;
+}
+
+input[type='search']::-webkit-search-cancel-button {
+    position: relative;
+    right: -5px;
+    padding: 1px;
+}
+
+.carousel__pagination-button::after {
+    background-color: rgb(var(--color-white-rgb), 0.3);
+}
+
+.carousel__pagination-button:hover::after,
+.carousel__pagination-button--active::after {
+    background-color: var(--color-white);
+}
+
+.carousel__prev,
+.carousel__next {
+    color: var(--color-white);
+    background: rgb(var(--color-black-rgb), 0.3);
+    border-radius: 50%;
+}
