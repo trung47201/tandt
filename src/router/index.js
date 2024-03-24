@@ -15,6 +15,26 @@ const router = createRouter({
             component: () => import('../views/ProductsView.vue')
         },
         {
+            path: '/accessories',
+            name: 'accessories',
+            component: () => import('../views/AccessoriesView.vue')
+        },
+        {
+            path: '/blog',
+            name: 'blog',
+            component: () => import('../views/BlogView.vue')
+        },
+        {
+            path: '/voucher',
+            name: 'voucher',
+            component: () => import('../views/VoucherView.vue')
+        },
+        {
+            path: '/contact',
+            name: 'contact',
+            component: () => import('../views/ContactView.vue')
+        },
+        {
             path: '/about',
             name: 'about',
             component: () => import('../views/AboutView.vue')
@@ -23,6 +43,11 @@ const router = createRouter({
             path: '/cart',
             name: 'cart',
             component: () => import('../views/CartView.vue')
+        },
+        {
+            path: '/profile',
+            name: 'profile',
+            component: () => import('../views/ProfileView.vue')
         }
     ]
 })

@@ -1,7 +1,13 @@
+<script setup>
+import TextShadow from '@/components/TextShadow.vue'
+</script>
+
 <template>
     <div class="about">
         <h1 class="text-black px-3 py-2">This is an cart page</h1>
-        <div class="text-black px-3 py-2">Test</div>
+        <div class="text-black px-3 py-2">
+           
+        </div>
     </div>
 </template>
 

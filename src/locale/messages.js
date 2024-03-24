@@ -4,6 +4,7 @@ export default {
         translate: {
             home: 'Home',
             products: 'Products',
+            accessories: 'Accessories',
             blog: 'Blog',
             voucher: 'Voucher',
             contact: 'Contact',
@@ -16,6 +17,7 @@ export default {
         translate: {
             home: 'Trang chủ',
             products: 'Sản phẩm',
+            accessories: 'Phụ kiện',
             blog: 'Blog',
             voucher: 'Mã giảm giá',
             contact: 'Liên hệ',
